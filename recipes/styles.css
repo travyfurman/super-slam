@@ -1,0 +1,86 @@
+.hero {
+    padding: 10px;
+    background-color: rgb(2, 66, 13);
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.hero-image {
+    display: block;
+    margin: auto;
+    width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.body {
+    background-color: bisque;
+}
+
+.blurb {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.description {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+}
+
+.back-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: normal;
+    color: #5c4601;
+}
+
+.small-header {
+    padding-left: 30px;
+}
+
+.smaller-header {
+    padding-left: 30px;
+}
+
+.directions {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.ingredients {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.necessary-ingredients {
+    list-style: none;
+}
+
+.listed-steps {
+    list-style: lower-roman;
+}
